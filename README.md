@@ -2,6 +2,7 @@
 Simple app for football chants using Autolayout 
 
 Using UI in code, auto-height table view cells, some concepts from MVVM and AVPlayer for playing chants!
+Based on tundsdev videos
 
 ## Install
 1) Clone this repo
