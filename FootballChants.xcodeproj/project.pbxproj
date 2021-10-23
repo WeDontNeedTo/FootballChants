@@ -219,7 +219,6 @@
 				A27D4803269A264E008ACDDC /* Sources */,
 				A27D4804269A264E008ACDDC /* Frameworks */,
 				A27D4805269A264E008ACDDC /* Resources */,
-				A25CDCDF269B4EAE00B92EFE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -292,26 +291,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A25CDCDF269B4EAE00B92EFE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftformat >/dev/null; then\n    swiftformat . --swiftversion 5\nelse\n    echo \"warning: swiftformat not installed - brew install swiftformat \\nrepo:  https://github.com/nicklockwood/SwiftFormat\"\n    exit 1\nfi\n \nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: swiftlint not installed - brew install swiftlint \\nrepo:  https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A27D4803269A264E008ACDDC /* Sources */ = {
